@@ -27,6 +27,9 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'sendgrid-ruby'
 
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'devise-bootstrap-views'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

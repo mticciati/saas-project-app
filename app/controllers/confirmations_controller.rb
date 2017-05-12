@@ -49,7 +49,6 @@ class ConfirmationsController < Milia::ConfirmationsController
         sign_in_tenanted_and_redirect(resource)
       end
 
-      super  # this will redirect
       if @confirmable.skip_confirm_change_password
         sign_in_tenanted(resource)
       end

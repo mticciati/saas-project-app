@@ -61,6 +61,8 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     bcrypt (3.1.11)
+    bootstrap-datepicker-rails (1.6.4.1)
+      railties (>= 3.0)
     builder (3.2.3)
     byebug (9.0.6)
     coffee-rails (4.2.1)
@@ -203,6 +205,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-session_store!
+  bootstrap-datepicker-rails
   byebug
   coffee-rails (~> 4.2)
   devise
